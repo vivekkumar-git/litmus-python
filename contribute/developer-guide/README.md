@@ -220,7 +220,6 @@ Follow the steps provided below to setup okteto & test the experiment execution.
   This should take you to the bash prompt on the dev container into which the content of the litmus-python repo is loaded. 
   
   - Note : 
-    -  Replace `_` in chart manifest with `-` ex: sample_category to sample-category. Don't replace in directory name.
     -  Add packages routes for all the files which are generated from sdk in `setup.py` before creating image. 
       example :
       ```
