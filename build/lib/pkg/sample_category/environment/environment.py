@@ -24,7 +24,10 @@ def GetENV(experimentDetails):
 	experimentDetails.TargetPods = os.getenv("TARGET_PODS", "")
 	experimentDetails.PodsAffectedPerc = maths.atoi(os.getenv("PODS_AFFECTED_PERC", "100"))
 	experimentDetails.Sequence = os.getenv("SEQUENCE", "parallel")
+
 	experimentDetails.TargetContainer = os.getenv("TARGET_CONTAINER", "")
+	experimentDetails.ChaosInjectCmd = os.getenv("CHAOS_INJECT_COMMAND", "md5sum /dev/zero &")
+	experimentDetails.ChaosKillCmd = os.getenv("CHAOS_KILL_COMMAND", "")
 
 #InitialiseChaosVariables initialise all the global variables
 def InitialiseChaosVariables(chaosDetails, experimentDetails):
@@ -46,4 +49,3 @@ def InitialiseChaosVariables(chaosDetails, experimentDetails):
 	chaosDetails.Delay = experimentDetails.Delay
 	chaosDetails.AppDetail = appDetails
 	chaosDetails.Randomness = (os.getenv("RANDOMNESS", "false") == 'true')
-

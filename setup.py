@@ -42,6 +42,14 @@ classifiers = [
 ]
 license = 'Apache License Version 2.0'
 packages = [
+	'chaosLib/litmus/sample_exec_chaos',
+	'chaosLib/litmus/sample_exec_chaos/lib',
+	'pkg/sample_category',
+	'pkg/sample_category/environment',
+	'pkg/sample_category/types',
+	'experiments/sample_category',
+	'experiments/sample_category/sample_exec_chaos',
+	'experiments/sample_category/sample_exec_chaos/experiment',
 	'chaosLib',
 	'chaosLib/litmus',
 	'chaosLib/litmus/pod_delete',

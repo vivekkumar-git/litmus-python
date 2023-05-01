@@ -1,0 +1,5 @@
+packageName: sample-category
+experiments:
+  - name: sample-exec-chaos
+    CSV: sample-exec-chaos.chartserviceversion.yaml
+    desc: "sample-exec-chaos"
