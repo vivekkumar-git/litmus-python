@@ -145,9 +145,9 @@ scaffolded files consist of placeholders which can then be filled as desired.
   $ ls -ltr sample_category/charts
 
   total 24
-  -rw-rw-r-- 1 oumkale oumkale  144 Jul  7 18:48 sample_category.package.yaml
-  -rw-rw-r-- 1 oumkale oumkale  848 Jul  7 18:48 sample_category.category_chartserviceversion.yaml
-  -rw-rw-r-- 1 oumkale oumkale  989 Jul  7 18:48 sample_exec_chaos.experiment_chartserviceversion.yaml
+  -rw-rw-r-- 1 oumkale oumkale  144 Jul  7 18:48 sample-category.package.yaml
+  -rw-rw-r-- 1 oumkale oumkale  848 Jul  7 18:48 sample-category.chartserviceversion.yaml
+  -rw-rw-r-- 1 oumkale oumkale  989 Jul  7 18:48 sample-exec-chaos.chartserviceversion.yaml
   -rw-rw-r-- 1 oumkale oumkale 1540 Jul  7 18:48 experiment.yaml
   -rw-rw-r-- 1 oumkale oumkale 1224 Jul  7 18:48 rbac.yaml
   -rw-rw-r-- 1 oumkale oumkale  731 Jul  7 18:48 engine.yaml
